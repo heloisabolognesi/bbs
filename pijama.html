@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pijamas - Petit Papillon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Petit Papillon</h1>
+                <p>Moda infantil delicada</p>
+            </div>
+            <nav>
+                <ul class="main-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="vestidos.html">Vestidos</a></li>
+                    <li><a href="conjuntos.html">Conjuntos</a></li>
+                    <li><a href="praia.html">Praia</a></li>
+                    <li><a href="pijama.html" class="active">Pijama</a></li>
+                    <li><a href="sapatos.html">Sapatos</a></li>
+                    <li><a href="jeans.html">Jeans</a></li>
+                    <li><a href="index.html#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-banner">
+        <div class="container">
+            <h1>Pijamas</h1>
+            <p>Conforto e aconchego para noites tranquilas</p>
+        </div>
+    </section>
+
+    <section class="products-section">
+        <div class="container">
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="idade">Idade:</label>
+                    <select id="idade">
+                        <option value="">Todas as idades</option>
+                        <option value="0-6m">0-6 meses</option>
+                        <option value="6-12m">6-12 meses</option>
+                        <option value="1-2a">1-2 anos</option>
+                        <option value="2-4a">2-4 anos</option>
+                        <option value="4-6a">4-6 anos</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="tipo">Tipo:</label>
+                    <select id="tipo">
+                        <option value="">Todos os tipos</option>
+                        <option value="conjunto">Conjunto</option>
+                        <option value="camisola">Camisola</option>
+                        <option value="macacao">Macacão</option>
+                        <option value="inverno">Inverno</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="preco">Preço:</label>
+                    <select id="preco">
+                        <option value="">Todos os preços</option>
+                        <option value="0-50">Até R$ 50</option>
+                        <option value="50-100">R$ 50 - R$ 100</option>
+                        <option value="100-150">R$ 100 - R$ 150</option>
+                        <option value="150+">Acima de R$ 150</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="https://placeholder.pics/svg/400x500/FFF8F5-FFEEE8/E8D5E8-F0E3F0/Pijama%20Nuvem" alt="Pijama Nuvem">
+                        <div class="product-overlay">
+                            <div class="overlay-content">
+                                <button class="btn btn-primary">Ver Detalhes</button>
+                                <button class="btn btn-outline">♡ Favoritar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Pijama Nuvem de Algodão</h3>
+                        <p class="product-description">Pijama super macio em algodão orgânico</p>
+                        <div class="product-price">
+                            <span class="current-price">R$ 79,90</span>
+                            <span class="old-price">R$ 99,90</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="https://placeholder.pics/svg/400x500/F8F5FF-EFE9FF/B4A7E5-C5BBE8/Pijama%20Unicórnio" alt="Pijama Unicórnio">
+                        <div class="product-overlay">
+                            <div class="overlay-content">
+                                <button class="btn btn-primary">Ver Detalhes</button>
+                                <button class="btn btn-outline">♡ Favoritar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Pijama Unicórnio Mágico</h3>
+                        <p class="product-description">Pijama encantado com estampa de unicórnio</p>
+                        <div class="product-price">
+                            <span class="current-price">R$ 89,90</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="https://placeholder.pics/svg/400x500/F0FFF8-E0F5EE/A8DADC-B8E4E6/Camisola%20Estrelas" alt="Camisola Estrelas">
+                        <div class="product-overlay">
+                            <div class="overlay-content">
+                                <button class="btn btn-primary">Ver Detalhes</button>
+                                <button class="btn btn-outline">♡ Favoritar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Camisola Estrelas</h3>
+                        <p class="product-description">Camisola delicada com estampa de estrelas</p>
+                        <div class="product-price">
+                            <span class="current-price">R$ 59,90</span>
+                            <span class="old-price">R$ 79,90</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="https://placeholder.pics/svg/400x500/F5F8FF-E8EFFF/9A8C98-B4A7E5/Macacão%20Sonho" alt="Macacão Sonho">
+                        <div class="product-overlay">
+                            <div class="overlay-content">
+                                <button class="btn btn-primary">Ver Detalhes</button>
+                                <button class="btn btn-outline">♡ Favoritar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Macacão dos Sonhos</h3>
+                        <p class="product-description">Macacão aconchegante para bebês</p>
+                        <div class="product-price">
+                            <span class="current-price">R$ 99,90</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="https://placeholder.pics/svg/400x500/FFF8F5-FFEEE8/E8D5E8-F0E3F0/Pijama%20Inverno" alt="Pijama Inverno">
+                        <div class="product-overlay">
+                            <div class="overlay-content">
+                                <button class="btn btn-primary">Ver Detalhes</button>
+                                <button class="btn btn-outline">♡ Favoritar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Pijama Inverno Quentinho</h3>
+                        <p class="product-description">Pijama de flanela para noites frias</p>
+                        <div class="product-price">
+                            <span class="current-price">R$ 109,90</span>
+                            <span class="old-price">R$ 139,90</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="https://placeholder.pics/svg/400x500/F8F5FF-EFE9FF/B4A7E5-C5BBE8/Pijama%20Lua" alt="Pijama Lua">
+                        <div class="product-overlay">
+                            <div class="overlay-content">
+                                <button class="btn btn-primary">Ver Detalhes</button>
+                                <button class="btn btn-outline">♡ Favoritar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Pijama Lua e Estrelas</h3>
+                        <p class="product-description">Pijama noturno com estampa celestial</p>
+                        <div class="product-price">
+                            <span class="current-price">R$ 85,90</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Petit Papillon</h3>
+                    <p>Moda infantil delicada que transforma momentos cotidianos em memórias especiais.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">FB</a>
+                        <a href="#" class="social-icon">IG</a>
+                        <a href="#" class="social-icon">YT</a>
+                        <a href="#" class="social-icon">PT</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Navegação</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="vestidos.html">Vestidos</a></li>
+                        <li><a href="conjuntos.html">Conjuntos</a></li>
+                        <li><a href="praia.html">Praia</a></li>
+                        <li><a href="pijama.html">Pijama</a></li>
+                        <li><a href="sapatos.html">Sapatos</a></li>
+                        <li><a href="jeans.html">Jeans</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Informações</h3>
+                    <ul>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Guia de Tamanhos</a></li>
+                        <li><a href="#">Cuidados com as Peças</a></li>
+                        <li><a href="#">Política de Troca</a></li>
+                        <li><a href="#">Entregas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Receba novidades e dicas especiais para cuidar do seu pequeno.</p>
+                    <form>
+                        <input type="email" placeholder="Seu email" required>
+                        <button type="submit" class="btn btn-secondary">Assinar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Petit Papillon - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Menu mobile toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.main-menu').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+        
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
